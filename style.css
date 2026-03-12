@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Laundry</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-box {
+      background: rgb(199, 54, 143);
+      width: 320px;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1e40af;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background: #2563eb;
+      border: none;
+      color: rgb(26, 39, 157);
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-box button:hover {
+      background: #1e40af;
+    }
+
+    .error {
+      color: red;
+      text-align: center;
+      margin-top: 10px;
+      display: none;
+    }
+ 
+    let pass = document.getElementById("password").value;
+
+    if (user === "" || pass === "") {
+      document.getElementById("errorMsg").style.display = "block";
+      return false;
+    }
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+}
+
+/* ===== LAYOUT ===== */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 230px;
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #2563eb;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 8px;
+  color: #374151;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: #2563eb;
+  color: white;
+}
+
+.logout {
+  margin-top: 30px;
+  background: #ef4444;
+  color: white;
+  text-align: center;
+}
+
+/* ===== MAIN ===== */
+.main {
+  flex: 1;
+}
+
+/* ===== TOPBAR ===== */
+.topbar {
+  background: #1f2937;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===== CONTENT ===== */
+.content {
+  padding: 20px;
+}
+
+/* ===== CARDS ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  color: #374151;
+}
+
+.card p {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #2563eb;
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background: #f9fafb;
+  text-align: left;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+
+.proses { background: #f59e0b; }
+.selesai { background: #10b981; }
+
+.btn {
+  padding: 6px 12px;
+  background: #22c55e;
+  color: rgb(213, 226, 29);
+  border-radius: 5px;
+  text-decoration: none;
+}
+#qrisBox img {
+  border: 2px dashed #0ea5e9;
+  padding: 10px;a {
+  position: relative;
+  z-index: 999;
+}
+
+  border-radius: 10px;
+  background: #c92291;
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kasir</title>
+  <style>
+    body{font-family:Arial;background:#f3f4f6}
+    .box{width:400px;margin:50px auto;background:rgb(20, 52, 179);padding:20px;border-radius:8px}
+    label{display:block;margin-top:10px}
+    input,select,button{width:100%;padding:8px;margin-top:5px}
+    button{background:#2563eb;color:rgb(100, 14, 108);border:none;border-radius:5px;margin-top:15px}
+  </style>
+</head>
+<body>
+a {
+  position: relative;
+  z-index: 999;
+}
+
+
